@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  background-color: yellow;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+thead {
+  background-color: #f4d03f;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0e68c;
+}
+
+tbody tr:hover {
+  background-color: #f5c542;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    font-size: 14px;
+  }
+}
